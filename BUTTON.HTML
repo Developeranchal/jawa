@@ -1,0 +1,72 @@
+
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The sort() Method</h2>
+
+<p style="color: deeppink;">Click the buttons to sort the array alphabetically or numerically.</p>
+
+<button style="background-color: red;" onclick="arith()">arithmetic</button><br><br>
+<button style="background-color: aqua;" onclick="relationl()">relationl</button><br><br>
+<button style="background-color: blue;" onclick="logical()">logical</button><br><br>
+<button style="background-color: blueviolet;" onclick="conditional()">conditional</button><br><br>
+<button style="background-color: chartreuse;" onclick="bitwise()">bitwise</button><br><br>
+<button style="background-color: coral;" onclick="increment()">increment</button><br><br>
+<button style="background-color: cadetblue;" onclick="decrement()">decrement</button><br><br>
+<button style="background-color: crimson;" onclick="assighnment()">assighnment</button><br><br>
+<button style="background-color: darkgoldenrod;" onclick="others()">others</button>
+<p id="demo"></p>
+
+<script>
+const a=10;
+b=20;
+
+function arith(){
+document.write(a+b);
+document.write(a-b);
+document.write(a*b);
+document.write(a/b);
+document.write(a%b);
+}
+function relationl(){
+document.write(a<b);
+document.write(a>b);
+document.write(a<=b);
+document.write(a>=b);
+document.write(a==b);
+}
+function logical(){
+document.write(a&&b);
+document.write(a||b);
+document.write(!b);
+}
+
+function bitwise(){
+document.write(a&b);
+document.write(a|b);
+document.write(a^b);
+document.write(~b);
+}
+
+function increment(){
+document.write(a++);
+document.write(++a);
+}
+
+function decrement(){
+document.write(--a);
+document.write(a--);
+}
+function assighnment(){
+document.write(a==b);
+document.write(a!=b);
+}
+
+function others(){
+     document.write("abstract arguments await*boolean break byte casecatchcharclass* const continue debugger default delete do dobule else enum* eval export* extends* false final finally float for function goto if implements import* instaneof int interface let* long native new null package private protected public return short static super* switch synchronized this throw transit true try typeof var void volatile while with yield");
+
+}
+</script>
+
+</body>
+</html>
